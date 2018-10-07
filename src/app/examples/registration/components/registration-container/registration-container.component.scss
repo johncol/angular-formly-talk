@@ -1,0 +1,20 @@
+@import 'src/styles/vars';
+
+.registration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 15px;
+  background-image: linear-gradient(to bottom,
+    $white 0%,
+    $white 352px,
+    $grey3 353px,
+    $grey3 355px,
+    $white 355px,
+    $grey 355px,
+    $grey 100%);
+
+  &__content {
+    margin-top: 40px;
+  }
+}

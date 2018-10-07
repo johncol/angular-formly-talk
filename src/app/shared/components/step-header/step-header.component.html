@@ -1,0 +1,16 @@
+<section class="step-header">
+
+  <img
+    class="step-header__logo"
+    [src]="logo"
+    alt="Logo">
+
+  <h2 class="step-header__title">
+    <ng-content select="[data-title]"></ng-content>
+  </h2>
+  
+  <h3 class="step-header__subtitle">
+    <ng-content select="[data-subtitle]"></ng-content>
+  </h3>
+  
+</section>

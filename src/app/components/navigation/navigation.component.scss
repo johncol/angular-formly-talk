@@ -1,0 +1,21 @@
+@import 'src/styles/vars';
+
+.nav {
+  margin: 20px auto;
+  max-width: 600px;
+  
+  &__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__link {
+    &,
+    &:link,
+    &:visited {
+      text-decoration: none;
+      color: $blue;
+    }
+  }
+}
