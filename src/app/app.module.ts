@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormlyModule } from '@ngx-formly/core';
 import { FormlyMaterialModule } from '@ngx-formly/material';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FormlyMaterialModule } from '@ngx-formly/material';
     AppRoutingModule,
     ReactiveFormsModule,
     FormlyModule.forRoot(),
-    FormlyMaterialModule
+    FormlyMaterialModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
