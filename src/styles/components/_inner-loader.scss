@@ -1,0 +1,26 @@
+@import 'src/styles/vars';
+
+.inner-loader {
+  position: relative;
+
+  &::before {
+    content: '';
+    display: block;
+    height: 0;
+    width: 0;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-right-color: transparent;
+    border-radius: 22px;
+    animation: rotate 1s infinite linear;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}

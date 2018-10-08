@@ -1,7 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { CardComponent, StepHeaderComponent } from './components';
+import { ButtonDirective } from './directives';
+import {
+  CardComponent,
+  StepHeaderComponent,
+  SecuredSiteComponent
+} from './components';
 
 @NgModule({
   imports: [
@@ -10,10 +15,14 @@ import { CardComponent, StepHeaderComponent } from './components';
   declarations: [
     CardComponent,
     StepHeaderComponent,
+    ButtonDirective,
+    SecuredSiteComponent,
   ],
   exports: [
     CardComponent,
     StepHeaderComponent,
+    ButtonDirective,
+    SecuredSiteComponent,
   ]
 })
 export class SharedModule { }

@@ -6,7 +6,13 @@
   </app-step-header>
   
   <app-card class="registration__content">
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi praesentium, numquam corporis nesciunt at fugit quasi nobis iure! At asperiores, vitae quaerat officiis aperiam dicta explicabo accusamus obcaecati vero labore!</p>
+
+    <router-outlet></router-outlet>
+    
+    <p class="registration__login-message">¿Ya tienes usuario? <a class="link" routerLink="/login">Inicia Sesión</a></p>
+
+    <app-secured-site></app-secured-site>
+
   </app-card>
 
 </div>

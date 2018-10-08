@@ -1,0 +1,21 @@
+@import 'src/styles/vars';
+
+.link {
+  &,
+  &:visited {
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: $blue;
+    text-decoration: none;
+  }
+
+  &:hover,
+  &:active,
+  &:focus {
+    text-decoration: underline;
+  }
+}
